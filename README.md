@@ -22,8 +22,8 @@ cd weather-cli-app
 
 ## Run with Docker
 
-docker build -t weather-cli .
-docker run --rm weather-cli "London"
+docker build -t weather-cli . 
+docker run -it --rm weather-cli python3 app.py
 
 ## API Key
 Set your OpenWeatherMap API key as an environment variable:
