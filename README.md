@@ -20,19 +20,19 @@ Clone the repository:
 git clone https://github.com/your-username/weather-cli-app.git
 cd weather-cli-app
 
-Run with Docker:
+## **Run with Docker**
 
 ```bash
 docker build -t weather-cli .
 docker run --rm weather-cli "London"
 
-API Key
+## **API Key**
 Set your OpenWeatherMap API key as an environment variable:
 
 ```bash
 set OPENWEATHER_API_KEY=your_api_key_here
 
-Author
+## **Author**
 Mykyta Oriekhov
 
 
